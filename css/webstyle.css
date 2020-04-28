@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("../image/bg.jpg");
+	background-size: cover;
+}
+.logoayopra
+{
+	text-align: center;
+	width: 230px;
+}
+.header
+{
+	width: auto;
+	height: 80px;
+	background-color: #D1AB09;
+	font-size: 50px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	padding-top: 10px;
+}
+.footer
+{
+	width: auto;
+	height: 80px;
+	background-color: #D1AB09;
+	font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	padding-top: 10px;
+}
+.nav
+{
+	width: auto;
+	padding: 15px;
+	text-align: center;
+	background-color: #D1AB09;
+}
+.but1
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	border: #D1AB09;
+	border-radius: 10px;
+	background-color: #D1AB09;
+	transition-duration: 0.3s;
+	font-weight: bold;
+	color: #0D0B00;
+}
+.button:visited
+{
+	color: #000000;
+}
+.button:link
+{
+	color: #000000;
+}
+.button:hover
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.button:active
+{
+	color: #000000;
+}
+.content
+{
+	background-color: #000000;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 1px;
+	padding-bottom: 15px;
+	opacity: 0.8;
+	border: 1px solid #D1AB09;
+}
+h1
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+p
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 15px;
+}
+.promo
+{
+	color: yellow;
+	text-shadow: 1px 1px 2px red, 0 0 50px red, 0 0 5px red;
+	font-size: 60px;
+}
+table
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 100%;
+}
+th
+{
+	border: 1px solid #FFFFFF;
+	padding: 10px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 30px;
+}
+td
+{
+	border: 1px solid #FFFFFF;
+	padding: 10px;
+	background-color: #000000;
+	font-size: 30px;
+	text-align: left;
+	vertical-align: top;
+}
+#newmenu
+{
+	width: 450px;
+	height: 280px;
+	border-radius: 10px;
+}
+button
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color: white;
+	color: black;
+	width: 180px;
+	padding: 5px;
+	margin-top: 10px;
+	font-size: 25px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.aboutpic
+{
+	width: 430px;
+}
+.socialmedia
+{
+	width: 30px;
+}
+.foodpic
+{
+	width: 700px;
+	height: 400px;
+}
+.tddes
+{
+	width: 50%;
+}
+.tdprice
+{
+	width: 15%;
+}
+button:hover
+{
+	background-color: black;
+	color: white;
+}
+.about:hover
+{
+	border: 1px solid #D1AB09;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	transform: scale(1);
+	transition: 0.5s;
+}
+.contactus
+{
+	border: 1px solid #D1AB09;
+	margin: 10px;
+	padding: 10px;
+}
+.socialmedia:hover
+{
+	padding: 10px;
+}
+.contacttext:hover
+{
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 30px;
+	transform: scale(1);
+	transition: 1s;
+}
